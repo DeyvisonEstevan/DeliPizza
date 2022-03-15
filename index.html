@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delipizza</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Ranga' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="containerHeader">
+            <div class="containerLogomenu">
+                <h1 class="logo">DELIPIZZA</h1>
+                <nav class="menu">
+                    <a href="index.html" class="link">PEDIDO ONLINE</a>
+                    <a href="cardapio.html" class="link">CARDÁPIO</a>
+                    <a href="#" class="link">PROMO</a>
+                    <a href="#" class="link">VEJA SEU PEDIDO</a>
+                </nav>
+            </div>
+            <div class="containerLogin">
+                <div class="imagemLogin">
+                    <a href="login.html"><img src="img/login.png" alt="login" width="56px" height="56px"></a>
+                </div>
+                <nav class="menuLogin">
+                    <a href="login.html" class="linkLogin">LOGIN</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="imagemCover">
+            <br>
+            <div class="containerBusca">
+                <div class="textoCEP">
+                    <h1>Insira seu CEP para verificar possibilidade de entrega</h1>
+                </div>
+                <div class="barraBusca">
+                    <input type="text" class="txtBusca" placeholder="CEP"/>
+                    <input type="button" href="#" class="btnBusca" value="BUSCAR"/>
+                </div>
+            </div>
+            <br>
+            <div class="containerPromo">
+                <div class="sliderPromo">
+                    <div class="slides fade">
+                        <img src="img/promo-1.jpg" alt="delipizza promo" width="100%" height="350">
+                    </div>
+                    <div class="slides fade">
+                        <img src="img/promo-2.jpg" alt="delipizza promo" width="100%" height="350">
+                    </div>
+                    <div class="slides fade">
+                        <img src="img/promo-4.jpg" alt="delipizza promo" width="100%" height="350">
+                    </div>
+                    <div class="btnNav">
+                        <span class="rec" onclick="atualSlides(1)"></span>
+                        <span class="rec" onclick="atualSlides(2)"></span>
+                        <span class="rec" onclick="atualSlides(3)"></span>
+                    </div>
+                    <a class="prev" onclick="adicionaSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="adicionaSlides(+1)">&#10095;</a>
+                </div>
+                <div class="fixoPromo">
+                    <img src="img/promo-3.jpg" width="100%" alt="delipizza promo" height="167.5">
+                    <img src="img/promo-5.jpg" width="100%" alt="delipizza promo" height="167.5">
+                </div>
+            </div>
+            <br>
+    </div>
+    <footer>
+        <div class="textoRodape">
+            <h2>Todos o Direitos Reservados</h2>
+            <h2>Rua do Tanque, 346 - Jardim Esther, São Paulo/SP</h2>
+            <h2>SAC.: contato@delipizza.com.br</h2>
+            <h2>Nos sigam nas redes - @delipizza</h2>
+        </div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

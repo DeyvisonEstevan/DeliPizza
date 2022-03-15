@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delipizza</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Ranga' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="containerHeader">
+            <div class="containerLogomenu">
+                <h1 class="logo">DELIPIZZA</h1>
+                <nav class="menu">
+                    <a href="index.html" class="link">PEDIDO ONLINE</a>
+                    <a href="cardapio.html" class="link">CARDÁPIO</a>
+                    <a href="#" class="link">PROMO</a>
+                    <a href="#" class="link">VEJA SEU PEDIDO</a>
+                </nav>
+            </div>
+            <div class="containerLogin">
+                <div class="imagemLogin">
+                    <a href="login.html"><img src="img/login.png" alt="login" width="56px" height="56px"></a>
+                </div>
+                <nav class="menuLogin">
+                    <a href="login.html" class="linkLogin">LOGIN</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="imagemCover">
+        <br>
+        <div class="containerFormulario">
+            <form class="form">
+                <br>
+                <div class="campos">
+                    <div>
+                        <label for="nome" class="titulo">NOME:</label>
+                        <input type="text" id="txtNome" class="text" name="txtNome">
+                    </div>
+                    <div>
+                        <label for="email" class="titulo">E-MAIL:</label>
+                        <input type="text" id="txtEmail" class="text" name="txtEmail" onblur="validaEmail()">
+                    </div>
+                    <div>
+                        <label for="senha" class="titulo">SENHA:</label>
+                        <input type="text" id="txtSenha" class="text" name="txtSenha" onblur="validaSenha()">
+                    </div>
+                </div>
+                <br>
+                <input type="submit" class="btnForm" value="ENVIAR">
+                <br>
+            </form>
+        </div>
+        <br>
+    </div>
+    <footer>
+        <div class="textoRodape">
+            <h2>Todos o Direitos Reservados</h2>
+            <h2>Rua do Tanque, 346 - Jardim Esther, São Paulo/SP</h2>
+            <h2>SAC.: contato@delipizza.com.br</h2>
+            <h2>Nos sigam nas redes - @delipizza</h2>
+        </div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
